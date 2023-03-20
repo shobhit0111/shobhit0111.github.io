@@ -89,8 +89,7 @@ section .title::after {
     padding: 30px 0;
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
-    background-color: #f47d5c;
-    height:100px;
+    
   }
   .navbar.sticky {
     padding: 15px 0;
@@ -102,7 +101,7 @@ section .title::after {
     justify-content: space-between;
   }
   .navbar .logo a {
-    color: #100f0f;
+    color: #f6f3f3;
     font-size: 35px;
     font-weight: 600;
   }
@@ -111,7 +110,7 @@ section .title::after {
     transition: all 0.3s ease;
   }
   .navbar.sticky .logo a span {
-    color: #000;
+    color: #2a2929;
   }
   .navbar .menu li {
     list-style: none;
@@ -119,7 +118,7 @@ section .title::after {
   }
   .navbar .menu li a {
     display: block;
-    color: #1f1d1d;
+    color: #f1e8e8;
     font-size: 20px;
     font-weight: 520;
     margin-left: 25px;
