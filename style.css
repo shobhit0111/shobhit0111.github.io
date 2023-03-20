@@ -15,7 +15,7 @@ html {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f8f6f6;
 }
 ::-webkit-scrollbar-thumb {
   background: #888;
@@ -77,7 +77,7 @@ section .title::after {
   font-size: 20px;
   color: rgb(241, 8, 8);
   padding: 0 5px;
-  background: #f5f0f0;
+  background: #fff;
   transform: translateX(-50%);
 }
 
@@ -89,10 +89,12 @@ section .title::after {
     padding: 30px 0;
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
+    background-color: #f47d5c;
+    height:100px;
   }
   .navbar.sticky {
     padding: 15px 0;
-    background: rgb(225, 4, 4);
+    background: rgb(184, 2, 2);
   }
   .navbar .max-width {
     display: flex;
@@ -100,16 +102,16 @@ section .title::after {
     justify-content: space-between;
   }
   .navbar .logo a {
-    color: #fbf5f5;
-    font-size: 40px;
+    color: #100f0f;
+    font-size: 35px;
     font-weight: 600;
   }
   .navbar .logo a span {
-    color: rgb(234, 6, 6);
+    color: rgb(235, 7, 7);
     transition: all 0.3s ease;
   }
   .navbar.sticky .logo a span {
-    color: #f2e4e4;
+    color: #000;
   }
   .navbar .menu li {
     list-style: none;
@@ -117,20 +119,20 @@ section .title::after {
   }
   .navbar .menu li a {
     display: block;
-    color: #e60606;
-    font-size: 25px;
-    font-weight: 550;
+    color: #1f1d1d;
+    font-size: 20px;
+    font-weight: 520;
     margin-left: 25px;
     transition: color 0.3s ease;
   }
   .navbar .menu li a:hover {
-    color: rgb(202, 34, 4);
+    color: rgb(235, 50, 18);
   }
   .navbar.sticky .menu li a:hover {
     color: #fff;
   }
   .navbar.sticky .menu li a{
-    color: #c60505;
+    color: #000;
   }
   /* menu btn styling */ 
    .menu-btn {
@@ -217,3 +219,198 @@ section .title::after {
     color: Tomato;
     background: none;
   }
+
+  /* about section styling */
+.about{
+    background-color: rgb(239, 235, 235);
+     
+     /* background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"); */
+     background-size: cover;
+     background-attachment: fixed;
+    }
+    .about .title::after {
+      content: "Who I am";
+     
+    }
+    .about .about-content .left {
+      width: 45%;
+    }
+    .about .about-content .left img {
+      height: 500px;
+      width: 360px;
+      object-fit: cover;
+      border-radius: 50px 50px;
+    }
+    .about .about-content .right {
+      width: 55%;
+    }
+    .about .about-content .right .text {
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .about .about-content .right .text span {
+      color: red;
+      
+    }
+    .about .about-content .right p {
+      text-align: justify;
+    }
+    .about .about-content .right a {
+      display: inline-block;
+      background: Tomato;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 10px 30px;
+      margin-top: 20px;
+      border-radius: 6px;
+      border: 2px solid Tomato;
+      transition: all 0.3s ease;
+    }
+    .about .about-content .right a:hover {
+      color: Tomato;
+      background: none;
+    }
+    .about .title::after {
+      /* background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"); */
+    
+      /* background-color: rgb(173, 165, 165); */
+      color: red;
+    }
+    /* services section styling */
+.services,
+.project {
+  color: #fff;
+  background: #111;
+}
+.services .title::before,
+.project .title::before {
+  
+  background: #fff;
+}
+.services .title::after,
+.project .title::after {
+  background: #111;
+  /* content: "What I Provide"; */
+}
+.services .serv-content .card {
+  width: calc(33% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.services .serv-content .card:hover {
+  background: Tomato;
+  color: #555;
+  /* change*/
+}
+.services .serv-content .card .box {
+  transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box {
+  transform: scale(1.05);
+}
+.services .serv-content .card i {
+  font-size: 50px;
+  color: ccorangered;
+  transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i {
+  color: #000;
+}
+.services .serv-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+    /* skills section styling */
+.skills-images img {
+  height: 150px;
+  width: 150px;
+  /* object-fit: cover; */
+  border-radius: 5%;
+  /* border: 5px solid crimson; */
+  transition: all 0.3s ease;
+}
+.skills .title::after {
+  content: "What I know";
+}
+
+/* skills right column */
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+  /* border: 2px solid black; */
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.skills .skills-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p {
+  text-align: justify;
+}
+.skills .skills-content .left a {
+  display: inline-block;
+  background: Tomato;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid Tomato;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover {
+  color: Tomato;
+  background: none;
+}
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: Tomato;
+  position: relative;
+}
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: Tomato;
+}
+.skills-content .right .html::before {
+  width: 90%;
+}
+.skills-content .right .css::before {
+  width: 60%;
+}
+.skills-content .right .js::before {
+  width: 80%;
+}
+.skills-content .right .php::before {
+  width: 50%;
+}
+.skills-content .right .mysql::before {
+  width: 70%;
+}
