@@ -91,32 +91,32 @@ section .title::after {
     transition: all 0.3s ease;
     
   }
-  .navbar.sticky {
+  #nav-menu.sticky {
     padding: 15px 0;
     background: rgb(184, 2, 2);
   }
-  .navbar .max-width {
+  #nav-menu .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .navbar .logo a {
+  #nav-menu .logo a {
     color: #f6f3f3;
     font-size: 35px;
     font-weight: 600;
   }
-  .navbar .logo a span {
+  #nav-menu .logo a span {
     color: rgb(235, 7, 7);
     transition: all 0.3s ease;
   }
-  .navbar.sticky .logo a span {
+  #nav-menu.sticky .logo a span {
     color: #2a2929;
   }
-  .navbar .menu li {
+  #nav-menu .menu li {
     list-style: none;
     display: inline-block;
   }
-  .navbar .menu li a {
+  #nav-menu .menu li a {
     display: block;
     color: #f1e8e8;
     font-size: 20px;
@@ -124,13 +124,13 @@ section .title::after {
     margin-left: 25px;
     transition: color 0.3s ease;
   }
-  .navbar .menu li a:hover {
+  #nav-menu .menu li a:hover {
     color: rgb(235, 50, 18);
   }
-  .navbar.sticky .menu li a:hover {
+  #nav-menu.sticky .menu li a:hover {
     color: #fff;
   }
-  .navbar.sticky .menu li a{
+  #nav-menu.sticky .menu li a{
     color: #000;
   }
   /* menu btn styling */ 
