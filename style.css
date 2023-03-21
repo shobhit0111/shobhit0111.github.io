@@ -235,10 +235,10 @@ section .title::after {
       display:flex;
       
     }
-    #about .about-content .left {
+    #about .about-content .home-img {
       width: 45%;
     }
-    #about .about-content .left img {
+    #about .about-content .home-img img {
       height: 500px;
       width: 360px;
       object-fit: cover;
