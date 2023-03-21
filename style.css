@@ -34,7 +34,7 @@ section {
   padding: 0 80px;
   margin: auto;
 }
-.about,
+#about,
 .services,
 .skills,
 .project,
@@ -42,7 +42,7 @@ section {
 footer {
   font-family: "Poppins", sans-serif;
 }
-.about .about-content,
+#about #about-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content {
@@ -220,42 +220,50 @@ section .title::after {
   }
 
   /* about section styling */
-.about{
+#about{
     background-color: rgb(239, 235, 235);
      
      /* background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"); */
      background-size: cover;
      background-attachment: fixed;
     }
-    .about .title::after {
+    #about .title::after {
       content: "Who I am";
      
     }
-    .about .about-content .left {
+    #about .about-content{
+      display:flex;
+      
+    }
+    #about .about-content .left {
       width: 45%;
     }
-    .about .about-content .left img {
+    #about .about-content .left img {
       height: 500px;
       width: 360px;
       object-fit: cover;
       border-radius: 50px 50px;
     }
-    .about .about-content .right {
-      width: 55%;
+    #about .about-content .right {
+      width: 60%;
+      margin-left: 80px;
+      height:90px;
+      margin-top:50px;
+      
     }
-    .about .about-content .right .text {
+    #about .about-content .right .text {
       font-size: 25px;
       font-weight: 600;
       margin-bottom: 10px;
     }
-    .about .about-content .right .text span {
+    #about .about-content .right .text span {
       color: red;
       
     }
-    .about .about-content .right p {
-      text-align: justify;
+    #about .about-content .right p {
+      text-align:justify;
     }
-    .about .about-content .right a {
+    #about .about-content .right a {
       display: inline-block;
       background: Tomato;
       color: #fff;
@@ -267,11 +275,11 @@ section .title::after {
       border: 2px solid Tomato;
       transition: all 0.3s ease;
     }
-    .about .about-content .right a:hover {
+    #about .about-content .right a:hover {
       color: Tomato;
       background: none;
     }
-    .about .title::after {
+    #about .title::after {
       /* background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"); */
     
       /* background-color: rgb(173, 165, 165); */
