@@ -95,10 +95,10 @@ section .title::after {
     padding: 15px 0;
     background: rgb(184, 2, 2);
   }
-  #nav-menu .nav-link_home {
+  #nav-menu .max-width {
     display: flex;
     align-items: center;
-    justify-content:space-around
+    justify-content:space-between;
   }
   #nav-menu .logo a {
     color: #f6f3f3;
