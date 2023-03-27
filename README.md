@@ -23,6 +23,6 @@
  ✅ GitHub stats card is present - 1 mark
  ✅ Checked tech words in user about section - 1 mark
 
-https://github.com/rahuldsa/rahuldsa.github.io#you-havent-been-taught-cypress-to-run-the-test-cases-locally-you-can-see-the-passed-failed-test-cases-and-test-errors-on-cp-itself
+<img width=10px src="https://static.vecteezy.com/system/resources/previews/006/693/402/original/link-icon-template-black-color-editable-free-vector.jpg" alt="">https://github.com/shobhit0111/shobhit0111.github.io#you-havent-been-taught-cypress-to-run-the-test-cases-locally-you-can-see-the-passed-failed-test-cases-and-test-errors-on-cp-itself
 
-https://github.com/rahuldsa/rahuldsa.github.io#cp-will-attempt-to-take-screenshots-of-each-component-in-your-portfolio-you-can-view-these-screenshots-in-the-screenshots-dropdown-in-the-logs-page-the-marks-allotted-to-you-are-independent-of-these
+https://github.com/shobhit0111/shobhit0111.github.io#cp-will-attempt-to-take-screenshots-of-each-component-in-your-portfolio-you-can-view-these-screenshots-in-the-screenshots-dropdown-in-the-logs-page-the-marks-allotted-to-you-are-independent-of-these
