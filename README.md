@@ -1,6 +1,6 @@
 # shobhit0111.github.io
 
- ✅ Submitted link is a github.io link - 1 mark
+ <img text-align="right" src="✅ Submitted link is a github.io link - 1 mark
  ✅ Basic components (navbar, about, skills, projects, contact) present with respective IDs - 1 mark
  ✅ Navbar contains required elements with respective IDs - 1 mark
  ✅ Elements of the navbar are linked to the respective sections  - 5 marks
@@ -21,7 +21,7 @@
  ✅ GitHub streak stats are present - 1 mark
  ✅ GitHub top languages card is present - 1 mark
  ✅ GitHub stats card is present - 1 mark
- ✅ Checked tech words in user about section - 1 mark
+ ✅ Checked tech words in user about section - 1 mark">
 
 <img width=20px src="https://static.vecteezy.com/system/resources/previews/006/693/402/original/link-icon-template-black-color-editable-free-vector.jpg" alt="">https://github.com/shobhit0111/shobhit0111.github.io#you-havent-been-taught-cypress-to-run-the-test-cases-locally-you-can-see-the-passed-failed-test-cases-and-test-errors-on-cp-itself
 
